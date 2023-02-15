@@ -1,0 +1,34 @@
+body{
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+}
+.heading{
+    font-size: 30px;
+    width: 100%;
+    margin-bottom: 12px;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 20px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    padding: 10px;
+    padding-left: 140px;
+    text-align: center;
+}
+ .heading button {
+    float: right;
+} 
+.modal-content{
+    width: 90%;
+}
+
+canvas
+{
+   border: 5px solid white;
+   border-radius: 20px;
+   animation-name: example;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+}
+@keyframes example{
+from{box-shadow: 10px 10px 100px black;}
+to{box-shadow: 10px 10px 100px yellow;}
+}
